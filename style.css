@@ -1,0 +1,616 @@
+body{
+	background-color: #cccccc;
+}
+#logo img{
+	width:10%;
+	margin-bottom:-1%;
+	
+	
+	
+}
+
+.navigation ul {
+  list-style-type: none;
+  background-color: #663399;
+  border-radius: 25px;
+  display: fixed;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 200px;
+  margin-left: 0;
+
+}
+
+
+
+li a {
+  
+ display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+li a:hover {
+  background-color: #333333;
+  border-radius: 25px;
+}
+* {box-sizing:border-box}
+h1{
+	position: relative;
+	text-align: center;
+}
+
+
+  
+/* Styling the area of the slides */
+#slideshow { 
+  overflow: hidden; 
+  height: 500px; 
+  width: 1310px; 
+  margin-left: 1%; 
+  border: 2px solid;
+  
+} 
+  
+/* Style each of the sides  
+with a fixed width and height */
+.slide img{ 
+  float: left; 
+  height: 510px; 
+  width: 1310px; 
+} 
+.slide1 img{ 
+  float: left; 
+  height: 510px; 
+  width: 1310px; 
+}
+.slide2 img{ 
+  float: left; 
+  height: 510px; 
+  width: 1310px; 
+} 
+
+
+  
+/* Add animation to the slides */
+.slide-wrapper { 
+  /* Calculate the total width on the 
+  basis of number of slides */
+  width: calc(1000px * 4); 
+  
+  /* Specify the animation with the 
+  duration and speed */
+  animation: slide 10s ease infinite; 
+} 
+  
+
+  
+/* Define the animation  
+for the slideshow */
+@keyframes slide { 
+  /* Calculate the margin-left for  
+  each of the slides */
+  20% { 
+    margin-left: 0px; 
+  } 
+  
+  40% { 
+    margin-left: calc(-1310px * 1); 
+  } 
+  60% { 
+    margin-left: calc(-1310px * 2); 
+  }
+  
+  
+
+}
+#slideshow button{
+     color: #f2f2f;
+     font-size: 15px;
+     padding: 8px 12px;
+     position: absolute;
+	 margin-left: 20%;
+	 margin-right: 20%;
+     bottom: 8px;
+     width: 50%;
+     text-align: center;
+}
+h3{
+	text-align: center;
+	color: purple;
+}
+.covid h1{
+	color: purple;
+}
+.covid{
+	background-color: yellow;
+	
+	
+}
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
+
+* {
+  font-family: Open Sans;
+}
+
+section {
+  width: 100%;
+  display: inline-block;
+  background: #333;
+  height: 50vh;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+
+
+
+.about h3{
+	text-align: center;
+	color: black;
+}
+
+.about h1{
+	color: purple;
+}
+
+.navigation ul {
+
+  list-style-type: none;
+  background-color: #663399;
+  border-radius: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 300px;
+  margin-left: 0;
+
+}
+
+
+
+li a {
+  
+  color: white;
+  padding: 15px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #333333;
+  border-radius: 25px;
+}
+.f2{
+	text-align: center;
+	color: purple;
+}
+.row img {
+	
+  position: absolute;
+  bottom: -1000px;
+  left: 680px;
+  font-size: 18px;
+  width: 49%;
+  height: 57%;
+}
+.service1 img{
+	padding: 10px;
+
+}
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #663399;
+  color: white;
+  padding: 15px 40px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+  margin-right:50%;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #9999ff;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 10%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 40%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+.footer {
+  
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   height: 300px;
+   background-color: #c0c0c0;
+   color: white;
+}
+.contact{
+	text-align: right;
+	margin-right: 50px;
+	color: white;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Sniglet|Raleway:900);
+
+
+
+h1{
+	font-weight: normal;
+	
+	font-family: 'Raleway', sans-serif;
+	margin: 0 auto;
+	margin-top: 30px;
+	width: 500px;
+	color: #F90;
+	text-align: center;
+
+}
+
+/* Animation webkit */
+@-webkit-keyframes myfirst
+{
+	0% {margin-left: -235px}
+	90% {margin-left: 100%;}
+	100% {margin-left: 100%;}
+}
+
+/* Animation */
+@keyframes myfirst
+{
+	0% {margin-left: -235px}
+	70% {margin-left: 100%;}
+	100% {margin-left: 100%;}
+}
+
+.fish{
+	background-image: url('http://www.geertjanhendriks.nl/codepen/form/fish.png');
+	width: 235px;
+	height: 104px;
+	margin-left: -235px;
+	position: absolute;	
+	animation: myfirst 24s;
+	-webkit-animation: myfirst 24s;
+	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	-webkit-animation-timing-function: linear;
+}
+
+#fish{
+	top: 120px;
+}
+
+#fish2{
+	top: 260px;
+	animation-delay: 12s;
+	-webkit-animation-delay: 12s;
+}
+
+
+header{
+	height: 160px;
+	background: url('http://www.geertjanhendriks.nl/codepen/form/golf.png') repeat-x bottom;
+}
+
+#form2{
+	height: 100%;	
+	background-color: #98d4f3;
+	overflow: hidden;
+	position: relative;
+	
+}
+form2{
+	margin: 0 auto;
+	width: 500px;
+	padding-top: 40px;
+	color: white;
+	position: relative;
+	
+	
+}
+label, input, textarea{
+	display: block;	
+}
+input, textarea{
+	width: 500px;	
+	height: -100px:
+	border: none;
+	border-radius: 20px;
+	outline: none;
+	padding: 10px;
+	font-family: 'Sniglet', cursive;
+	font-size: 1em;
+	color: #676767;
+	transition: border 0.5s;
+	-webkit-transition: border 0.5s;
+	-moz-transition: border 0.5s;
+	-o-transition: border 0.5s;
+	border: solid 3px #98d4f3;	
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	
+}
+input:focus, textarea:focus{
+	border: solid 3px #77bde0;	
+}
+
+
+}
+input[type="submit"]{
+	background-color: #F90;
+	color: white;
+	height: 50px;
+	cursor: pointer;
+	margin-top: 30px;
+	font-size: 1.29em;
+	font-family: 'Sniglet', cursive;
+	-webkit-transition: background-color 0.5s;
+	-moz-transition: background-color 0.5s;
+	-o-transition: background-color 0.5s;
+	transition: background-color 0.5s;
+}
+input[type="submit"]:hover{
+	background-color: #e58f0e;
+	
+}
+label{
+	font-size: 1.5em;
+	margin-top: 20px;
+	padding-left: 20px;
+}
+.formgroup, .formgroup-active, .formgroup-error{
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	background-size: 10.5%;
+	transition: background-image 0.7s;
+	-webkit-transition: background-image 0.7s;
+	-moz-transition: background-image 0.7s;
+	-o-transition: background-image 0.7s;
+	width: 566px;
+	padding-top: 2px;
+}
+
+.formgroup{
+	background-image: url('http://www.geertjanhendriks.nl/codepen/form/pixel.gif');	
+}
+.formgroup-active{
+	background-image: url('http://www.geertjanhendriks.nl/codepen/form/octo.png');
+}
+.formgroup-error{
+	background-image: url('http://www.geertjanhendriks.nl/codepen/form/octo-error.png');
+	color: red;
+}
+.galle h1 {
+	color: purple;
+	margin-top: 30px;
+	padding: 30px;
+}
+
+.gale .pic > img{
+  width:100%;
+  object-fit: contain;
+}
+.about img{
+	padding: 10px;
+	float: left;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 25px;
+  grid-row-gap: 25px;
+}
+
+.wrapper .pic1{
+   width: 100%;
+  height: 100%;
+}
+
+
+.wrapper .pic1 > img {
+  width: 100%;
+  height: 100%;
+}
+ body {
+    overflow-x: hidden;
+    color: #fff
+}
+
+p {
+    font-size: 14px
+}
+
+.container-fluid {
+    background-color: #4527A0
+}
+
+.top-part {
+    background-color: #512DA8
+}
+
+.center-content {
+    margin-top: 120px;
+    margin-bottom: 120px
+}
+
+.btn-pink {
+    border-radius: 0;
+    background-color: #FF4081;
+    color: #fff !important;
+    letter-spacing: 2px;
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px
+}
+
+.btn-pink:hover {
+    background-color: #F50057
+}
+
+.line {
+    border-top: 1px solid #7B1FA2;
+    width: 90% !important
+}
+
+.fa-mobile {
+    font-size: 20px
+}
+.wrapper h2{
+	color: purple;
+}
+
+.service_row > .row_body{
+    display:flex;
+  
+}
+
+.service_row > .row_body > img{
+  flex:0.2;
+  width:200px;
+  height:200px;
+  object-fit: contain;
+
+}
+
+.service_row > .row_body > h4{
+  flex:0.8;
+  margin: 0px;
+  
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.footer {
+    background-color: #303036;
+    height: 300px;
+    width: 100%;
+    color: #d3d3d3;
+    bottom: 0;
+}
+
+.footer-content {
+    margin-left: 30px;
+}
+
+.footer .footer-bottom {
+    
+    background:;
+    color: #686868;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+	
+    padding-top: 280px;
+    text-align: center;
+    height: 50px;
+}
+
+.footer-section {
+    width: 33%;
+    float: left;
+    text-align: left;
+    color: #fff;
+}
+
+.footer h2 {
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+.footer-section img{
+	height: 290px;
+	width: 290px;
+}
+.footer-section ul {
+    margin-top: 15px;
+    padding: 0;
+    list-style: none;
+}
+
+.footer-section ul a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #DBE7F0;
+}
+
+.footer p {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #C2C5C7
+}
+
+
+
+    
+
+@media screen and (max-width:560px) {
+    .footer-section {
+        width: 33%;
+    }
+
+    h2 {
+        font-size: 17px;
+    }
+
+}
